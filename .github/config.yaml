@@ -5,16 +5,6 @@ sast:
   exclude: # Optional: paths to exclude from scanning
     - node_modules
     - vendor
-sca:
-  include:
-    - .
-  exclude: # Optional: paths to exclude from scanning
-    - vendor/
-ss:
-  include:
-    - . # paths to scan (default: entire repo)
-  exclude:
-    - tests/ # paths to skip
 strict: true
 strictness_threshold: low
 output:
