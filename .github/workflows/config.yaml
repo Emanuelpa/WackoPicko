@@ -16,7 +16,7 @@ ss:
   exclude:
     - tests/ # paths to skip
 strict: true
-#strictness_threshold: medium
+strictness_threshold: low
 output:
   file_path: results.csv
   format: CSV
