@@ -13,4 +13,4 @@ jobs:
       - uses: fluidattacks/sca-action@1.2.0
         id: scan
         with: 
-            scan_config_path: .github/workflows/config.yaml
+            scan_config_path: .github/config.yaml
