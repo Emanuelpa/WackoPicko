@@ -17,4 +17,4 @@ jobs:
       - uses: fluidattacks/sast-action@1.3.0 # Use latest released version
         id: scan
         with: 
-            scan_config_path: .github/config.yaml
+            scan_config_path: .github/workflows/config.yaml

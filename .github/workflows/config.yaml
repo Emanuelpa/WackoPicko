@@ -1,5 +1,5 @@
 language: EN
-strict: false
+strict: true
 output:
   file_path: results.csv
   format: CSV
