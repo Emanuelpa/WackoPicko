@@ -16,3 +16,5 @@ jobs:
 
       - uses: fluidattacks/ss-action@0.2.0 # Use latest released version
         id: scan
+        with: 
+            scan_config_path: .github/config.yaml
